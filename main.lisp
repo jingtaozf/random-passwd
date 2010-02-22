@@ -32,7 +32,5 @@
   (display (make-instance 'gui-main-pane)))
 
 (export '(win-main)) ;export for deliver.
-(defun win-main ()
-  (gui-main)
-  ;;(display-message "~A" (read-from-string "12.3"))
-  )
+(defun win-main () 
+  (gui-main))

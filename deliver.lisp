@@ -7,7 +7,7 @@
 
 (defvar *deliverd-env* t);;a var indicates this is a delived environment.
 ;;; Load the application code.
-(asdf 'random-password)
+(asdf-load 'random-password)
 
 ;;; Deliver the application
 (deliver 'random-password::win-main *delivered-image-name* 5

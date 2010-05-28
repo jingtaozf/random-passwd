@@ -12,6 +12,7 @@
 ;;; Deliver the application
 (deliver 'random-password::win-main *delivered-image-name* 5
          :keep-lisp-reader t
+         :kill-dspec-table nil
          :console :input ;for debug only.
          :interface :capi
          :icon-file "favicon.ico")

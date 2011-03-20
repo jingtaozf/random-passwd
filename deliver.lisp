@@ -2,7 +2,6 @@
 
 (in-package "CL-USER")
 (load-all-patches)
-(update-asdf-central-registry)
 (defvar *delivered-image-name* "./cl-random-password.exe")
 
 (defvar *deliverd-env* t);;a var indicates this is a delived environment.
